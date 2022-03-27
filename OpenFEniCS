@@ -1,0 +1,39 @@
+						  FEniCS
+
+## Launch dolfinx docker
+
+# If I want to create a new container named prestudy
+docker run --name prestudy -p 8888:8888 -v $(pwd)/basicInjection:/root dolfinx/lab
+
+# If I want to reuse the docker container prestudy
+docker restart prestudy
+# Then copy-paste the link in firefox:
+http://127.0.0.1:8888/lab?token=556809e17c28cf3ec68474dacb454550f9bf635f69efd2a4
+
+
+## Launch terminal of the docker container
+docker exec -it NAME bash
+
+
+## List all container (-a to see also stoped containers)
+docker container ls -a
+OR docker ps 
+
+
+## Remove a container
+docker container rm ID
+
+
+## Install pyvista inside container 
+apt-get update
+apt-get install -y --no-install-recommends libgl1-mesa-dev xvfb
+pip3 install pyvista
+
+
+## Install pythreejs inside container
+# First install
+pip3 install pythreejs
+# Then install
+pip3 install ipympl
+# Restart notebook 
+
