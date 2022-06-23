@@ -5,7 +5,7 @@ This directory provides all the codes that were developed for my master project 
 Below are some tips for using [FEniCS](https://fenicsproject.org/) with Docker.
 
 ## Create a dolfinx container
-- To create a new container named `prestudy` that will acess to the local folder  `data`:
+- To create a new container named `prestudy` that will have acess to the local folder  `data`:
   > docker run --name prestudy -p 8888:8888 -v $(pwd)/data:/root dolfinx/lab
 - To stop the container:
   > docker stop prestudy
