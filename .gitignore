@@ -1,5 +1,5 @@
-# Object file
-*.o
+# IPython checkpoints
+*.ipynb_checkpoints
 
-# Ada Library Information
-*.ali
+# Object files
+*.o
