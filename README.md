@@ -12,7 +12,6 @@ Below are some tips for using [FEniCS](https://fenicsproject.org/) with Docker.
 - To restart the container:
   > docker restart prestudy
 
-	and then copy paste the outputed link in a search engine.
 
 ## Operations on containers
 - To list all containers (including stopped containers):
