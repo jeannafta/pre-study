@@ -1,6 +1,6 @@
 # Pre-study Master Project
 
-This directory provides all the codes that were developed for my master project pre-study.
+This directory provides all the codes that were developed for my master project pre-study. They are based on the [FEniCSx tutorial]https://jorgensd.github.io/dolfinx-tutorial/index.html#) by Jørgen S. Dokken.
 
 Below are some tips for using [FEniCS](https://fenicsproject.org/) with Docker.
 
