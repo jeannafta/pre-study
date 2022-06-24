@@ -2,7 +2,7 @@
 
 This directory provides all the codes that were developed for my master project pre-study. They are based on the [FEniCSx tutorial](https://jorgensd.github.io/dolfinx-tutorial/index.html#) by Jørgen S. Dokken.
 
-Below are some tips for using [FEniCS](https://fenicsproject.org/) with Docker.
+Below are some tips for using [FEniCS](https://fenicsproject.org/) with [Docker](https://www.docker.com/).
 
 ## Create a dolfinx container
 - To create a new container named `prestudy` that will have acess to the local folder  `data`:
